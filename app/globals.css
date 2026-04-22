@@ -31,4 +31,19 @@ body {
     text-wrap: balance;
   }
 }
+/* ❌ COMPLETELY REMOVE calendar icon */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+/* Optional: make it look clean */
+input[type="date"] {
+  appearance: none;
+  -webkit-appearance: none;
+}
+input, textarea {
+  color: #111827 !important;
+  background-color: #ffffff !important;
+}
 
